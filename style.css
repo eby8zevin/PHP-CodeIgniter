@@ -81,7 +81,7 @@ section i
   position: absolute;
   background: #ff2a2a;
   border-radius: 100%;
-  animation: animate 5s linear infinite;
+  animation: animate linear infinite;
 }
 
 section i:nth-child(even)
