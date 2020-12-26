@@ -87,7 +87,7 @@ section i
 section i:nth-child(even)
 {
   background: transparent;
-  border: 1ox solid #ff2a2a;
+  border: 1px solid #ff2a2a;
 }
 
 @keyframes animate
