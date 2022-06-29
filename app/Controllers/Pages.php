@@ -6,11 +6,11 @@ class Pages extends BaseController
 {
     public function index()
     {
-        echo 'Hello World!';
+        echo '<h1>Hello World!</h1>';
     }
 
     public function about()
     {
-        echo 'About Page!';
+        return view('about');
     }
 }
