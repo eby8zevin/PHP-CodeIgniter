@@ -31,12 +31,12 @@ class Database extends Config
      * @var array
      */
     public $default = [
-        'DSN'      => '',
+        'DSN'      => 'postgres://fjyyhjgfushokt:97dbcef666f23c0dcc318aee0cff3f3a5b032f941d535f60cfe48f7a2d4fcf5f@ec2-44-198-82-71.compute-1.amazonaws.com:5432/dalm5ovf2ki9kd',
         'hostname' => 'ec2-44-198-82-71.compute-1.amazonaws.com',
         'username' => 'fjyyhjgfushokt',
         'password' => '97dbcef666f23c0dcc318aee0cff3f3a5b032f941d535f60cfe48f7a2d4fcf5f',
         'database' => 'dalm5ovf2ki9kd',
-        'DBDriver' => 'postgre',
+        'DBDriver' => 'Postgre',
         'DBPrefix' => '',
         'pConnect' => false,
         'DBDebug'  => (ENVIRONMENT !== 'production'),
