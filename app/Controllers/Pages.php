@@ -16,6 +16,6 @@ class Pages extends BaseController
 
     public function test()
     {
-        echo $this->db->query("SELECT VERSION()")->row('version');
+        return view('test_postgres');
     }
 }
