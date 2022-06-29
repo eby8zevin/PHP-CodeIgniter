@@ -7,7 +7,7 @@ class Pages extends BaseController
     public function index()
     {
         echo '<h1>Hello World!</h1>';
-        echo $this->db->query("SELECT VERSION()")->row('version');
+        echo $this->db->query("SELECT * FROM users");
     }
 
     public function about()
