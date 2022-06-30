@@ -10,12 +10,7 @@
 
 <body>
     <?php
-    $db = \Config\Database::connect();
-    $query = $db->table('users')->get();
-    $users = $query->getResult();
-    echo '<pre>';
-    print_r($users);
-    echo '</pre>';
+    echo $this->db->query("SELECT VERSION()")->row('version');
     ?>
 </body>
 
